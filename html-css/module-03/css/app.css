@@ -58,13 +58,7 @@ article {
 
 }
 
-.left {
-    margin-left: 15px;
-    margin-right:13px;
-}
-.right {   
-    margin-left: 13px;
-    margin-right:15px;
+.article {
 
 }
 .imagename {
@@ -86,5 +80,7 @@ h2 {
 }
 
 button {
-    width: ;
+    width: 160px;
+    height: 60px;
+    background-color: rgb(255,255,255);
 }
