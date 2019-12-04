@@ -1,19 +1,15 @@
 body {
     font-family: 'Playfair Display', sans-serif;
+}
+.container {
+    width: 1278px;
     margin: auto;
-    width: 1278px ;
-    height: 2079px;
 }
 header {
-
-    height: 190px;
     display: inline-block;
-    
 }
 nav {
     display: inline;
-    width: 120px;
-    
 }
 ul {
     width: 1278px;
@@ -41,25 +37,17 @@ a:hover {
 }
 main {
     width: 900px;
-    
-   
-    margin-left: 188px;
-    margin-right:188px 
-
+    margin: 0 188px 
 }
 section {
     width: 900px;
+    text-align: center;
 }
 article {
     display: inline-block;
     width: 420px;
-    height: 480px;
-    margin-top: 15px;
-
-}
-
-.article {
-
+    margin: 15px 14px 0 14px;
+    text-align: left;
 }
 .imagename {
     margin-top: 25px;
@@ -83,4 +71,10 @@ button {
     width: 160px;
     height: 60px;
     background-color: rgb(255,255,255);
+    border: 1px solid rgb(0,0,0);
+    font-size: 16px;
+    font-family: 'Playfair Display', sans-serif;
+    margin-top: 50px;
+
+    
 }
