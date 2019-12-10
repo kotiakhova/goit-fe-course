@@ -13,6 +13,9 @@ body {
     margin: 0 auto;
     padding: 40px 15px;
 }
+header {
+    margin-bottom: 45px;
+}
 .logo::first-letter {
     font-weight: 700;
     color: rgb(25, 188, 156)
@@ -43,14 +46,13 @@ ul li {
 }
 .products {
     margin-bottom: 55px;
+    padding: 12px 0px;
 }
 .title {
     font-size: 35px;
     text-align: center;
     font-weight: bold;
     color: rgb(85,82,82);
-    
-
 }
 .title::after {
     content: "";
@@ -58,7 +60,7 @@ ul li {
     width: 165px;
     height: 7px;
     background-color: rgb(26,188,156);
-    margin: 30px auto;
+    margin: 30px auto 90px;
 }
 .product-block {
     width: 260px;
@@ -67,22 +69,38 @@ ul li {
     background-color: rgb(232, 239,252);
     float: left;
 }
+.product-block:hover .name-of-product {
+    background-color: rgb(26,188,156);
+}
+.product-block:hover .cost {
+    background-color: rgb(127,217,199);
+}
 .name-of-product {
-    display: inline-block;
+    float:left;
     margin: 0px 0px;
-    width: 200px;
+    padding: 0px 13px;
+    width: 174px;
     height: 40px;
+    font-size: 16px;
+    color: rgb(255,255, 255);
+    line-height: 40px;
     background-color: rgb(50,50,50);
 }
 .cost {
-    display: inline-block;
+    float: right;
     margin: 0px 0px;
-    width: 40px;
+    width: 60px;
     height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: rgb(255,255, 255);
+    font-weight: 700;
+    text-align: center;
     background-color: rgb(140,140,140);
 }
+
 .news-container {
-    padding: 30px 0px;
+    padding: 30px 22px;
 }
 .news-block {
     width: 350px;
@@ -90,17 +108,36 @@ ul li {
     margin: 15px;
     float:left
 }
-img {
-    margin: 0px 0px 10px 0px;
+.news-img {
+    margin-bottom: 10px;
 }
 .preview {
-    margin: 0px;
     font-weight: 700;
     font-size: 15px;
     line-height: 30px;
     color: rgb(85,82,82);
 }
+.preview::after {
+    content: "";
+    display: block;
+    width: 135px;
+    height: 3px;
+    background-color: rgb(26,188,156);
+    margin: 10px 0px 30px;
+}
 .text {
     font-size: 12px;
     line-height: 25px;
+}
+.button {
+    display: inline-block;
+    width: 160px;
+    height: 55px;
+    background-color: rgb(25, 188, 156);
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 55px;
+    text-align: center;
+    color: rgb(255,255, 255);
+    box-shadow: none;
 }
