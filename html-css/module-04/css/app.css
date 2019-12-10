@@ -1,0 +1,106 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+.container {
+    width: 1185px;
+    margin: 0 auto;
+    padding: 40px 15px;
+}
+.logo::first-letter {
+    font-weight: 700;
+    color: rgb(25, 188, 156)
+}
+.logo {
+    display: inline-block;
+    font-size: 20px;
+}
+nav {
+    display: inline-block;
+    float: right;
+}
+ul {
+    display: inline-block;
+}
+ul li {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 35px;
+}
+.menu-link {
+    text-decoration: none;
+    color: rgb(0,0,0)
+}
+.menu-link:hover {
+    color: rgb(26,188,156);
+}
+.products {
+    margin-bottom: 55px;
+}
+.title {
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(85,82,82);
+    
+
+}
+.title::after {
+    content: "";
+    display: block;
+    width: 165px;
+    height: 7px;
+    background-color: rgb(26,188,156);
+    margin: 30px auto;
+}
+.product-block {
+    width: 260px;
+    height: 325px;
+    margin: 15px;
+    background-color: rgb(232, 239,252);
+    float: left;
+}
+.name-of-product {
+    display: inline-block;
+    margin: 0px 0px;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(50,50,50);
+}
+.cost {
+    display: inline-block;
+    margin: 0px 0px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(140,140,140);
+}
+.news-container {
+    padding: 30px 0px;
+}
+.news-block {
+    width: 350px;
+    height: 540px;
+    margin: 15px;
+    float:left
+}
+img {
+    margin: 0px 0px 10px 0px;
+}
+.preview {
+    margin: 0px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 30px;
+    color: rgb(85,82,82);
+}
+.text {
+    font-size: 12px;
+    line-height: 25px;
+}
