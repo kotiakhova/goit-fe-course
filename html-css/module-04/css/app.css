@@ -11,48 +11,64 @@ body {
 .container {
     width: 1185px;
     margin: 0 auto;
-    padding: 40px 15px;
+    padding: 35px 30px;
 }
 header {
-    margin-bottom: 45px;
+    margin-bottom: 95px;
 }
 .logo::first-letter {
     font-weight: 700;
     color: rgb(25, 188, 156)
 }
 .logo {
-    display: inline-block;
-    font-size: 20px;
+    float: left;
+    color: rgb(0,0,0);
+    text-decoration: none;
+    font-size: 30px;
 }
 nav {
-    display: inline-block;
     float: right;
 }
-ul {
-    display: inline-block;
+.menu-list {
+    display: block;
+    margin: 0;
+    padding: 0px;
 }
-ul li {
+.menu-point {
+    list-style: none; 
     display: inline-block;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: bold;
-    margin-left: 35px;
+    line-height: 34px; 
+} 
+.menu-point:not(:last-child) {
+    content: "";
+    margin-right:35px ;
 }
 .menu-link {
     text-decoration: none;
-    color: rgb(0,0,0)
+    color: rgb(0,0,0);
+    display: block;
 }
 .menu-link:hover {
     color: rgb(26,188,156);
 }
 .products {
-    margin-bottom: 55px;
-    padding: 12px 0px;
+    margin: 0 auto;
+    width: 1130px;
+    margin-bottom: 100px;
 }
 .title {
-    font-size: 35px;
+    font-size: 48px;
     text-align: center;
     font-weight: bold;
     color: rgb(85,82,82);
+    margin: 0;
+    
+}
+
+.featured-products {
+    margin-bottom: 75px;
 }
 .title::after {
     content: "";
@@ -60,14 +76,27 @@ ul li {
     width: 165px;
     height: 7px;
     background-color: rgb(26,188,156);
-    margin: 30px auto 90px;
+    margin: 30px auto;
+}
+.product-list {
+    padding: 0;
+    margin: 0;
 }
 .product-block {
     width: 260px;
-    height: 325px;
-    margin: 15px;
+    height: 320px;
     background-color: rgb(232, 239,252);
     float: left;
+    list-style: none;
+    font-size: 0;
+}
+.product-block:not(:nth-child(4n)) {
+    content: "";
+    margin-right: 30px;
+}
+.product-block:not(:nth-child(n+5)) {
+    content: "";
+    margin-bottom: 30px;
 }
 .product-block:hover .name-of-product {
     background-color: rgb(26,188,156);
@@ -81,7 +110,7 @@ ul li {
     padding: 0px 13px;
     width: 174px;
     height: 40px;
-    font-size: 16px;
+    font-size: 18px;
     color: rgb(255,255, 255);
     line-height: 40px;
     background-color: rgb(50,50,50);
@@ -92,30 +121,34 @@ ul li {
     width: 60px;
     height: 40px;
     line-height: 40px;
-    font-size: 16px;
+    font-size: 18px;
     color: rgb(255,255, 255);
     font-weight: 700;
     text-align: center;
     background-color: rgb(140,140,140);
 }
-
+.latest-news {
+    margin: 0 0 80px;
+}
 .news-container {
-    padding: 30px 22px;
+    padding: 0px 22px;
 }
 .news-block {
     width: 350px;
-    height: 540px;
-    margin: 15px;
     float:left
+}
+.news-block:not(:last-child) {
+    margin-right: 30px;
 }
 .news-img {
     margin-bottom: 10px;
 }
 .preview {
     font-weight: 700;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 30px;
     color: rgb(85,82,82);
+    margin: 0px 0px 30px;
 }
 .preview::after {
     content: "";
@@ -123,13 +156,15 @@ ul li {
     width: 135px;
     height: 3px;
     background-color: rgb(26,188,156);
-    margin: 10px 0px 30px;
+    margin: 10px 0px;
+
 }
 .text {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 25px;
+    margin: 0px 0px 15px;
 }
-.button {
+.read-more {
     display: inline-block;
     width: 160px;
     height: 55px;
@@ -139,6 +174,9 @@ ul li {
     line-height: 55px;
     text-align: center;
     color: rgb(255,255, 255);
-    box-shadow: none;
     border-radius: 5px;
+}
+.read-more:hover {
+    background-color: rgb(127,217,199);
+    color: rgb(50,50,50);
 }
