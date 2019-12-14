@@ -7,26 +7,31 @@ body {
     margin: 0 auto;
 }
 header {
-    display: inline-block;
+    margin-bottom: 30px;
+}
+nav {
+    text-align: center;
+
 }
 ul {
-    width: 900px;
-    text-align: center;
+    display: inline-block;
     padding: 0px;
     margin: 0px;
+    padding: 0px; 
 }
 .menu {
     font-size: 0px;
 }
 ul li {
     display:inline-block;
-    padding: 50px;
+    margin: 0px auto;
 }
 .link {
-    display: block;
     text-decoration: none;
     color:rgb(0,0,0);
-    font-size: 12px;
+    font-size: 14px;
+    line-height: 170px;
+    margin: 0px 40px;
 
 }
 .link:hover {
@@ -56,12 +61,12 @@ article:not(:nth-child(2n)){
     margin: 0px;
     margin-top: 25px;
     margin-bottom: 30px;
-    font-size: 10px;
+    font-size: 14px;
     color: grey;  
 }
 
 h2 {
-    font-size: 26px;
+    font-size: 30px;
     margin: 0px;
     margin-bottom: 30px;
 }
@@ -69,7 +74,7 @@ h2 {
 .text {
     display: inline-block;
     width: 420px;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 24px;
     margin: 0px;
 }
