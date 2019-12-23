@@ -63,6 +63,9 @@ header {
     color: rgb(243, 129, 129);
 }
 .text-before-title {
+    display: block;
+    text-transform: none;
+    font-weight: 400;
     text-align: center;
     font-family: 'Kaushan Script', cursive;
     font-size: 24px;
@@ -98,7 +101,62 @@ header {
     margin-bottom: 90px;
 
 }
-.service-icon {
+.service-block-one::before {
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(img/1.png);
+    position: absolute;
+    left: 10px; 
+    top: 0;
+}
+.service-block-two::before {
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(img/2.png);
+    position: absolute;
+    left: 10px; 
+    top: 0;
+}
+.service-block-three::before {
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(img/3.png);
+    position: absolute;
+    left: 10px; 
+    top: 0;
+}
+.service-block-four::before {
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(img/4.png);
+    position: absolute;
+    left: 10px; 
+    top: 0;
+}
+.service-block-five::before {
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(img/5.png);
+    position: absolute;
+    left: 10px; 
+    top: 0;
+}
+.service-block-six::before {
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(img/6.png);
     position: absolute;
     left: 10px; 
     top: 0;
@@ -132,11 +190,13 @@ header {
 .team-flex {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 90px;
+
+
 }
 .team-block {
     width: 380px;
     text-align: center;
-    margin-bottom: 90px;
     position: relative;
 }
 .team-img {
@@ -168,21 +228,34 @@ header {
     transition: opacity 200ms linear
 }
 
-.team-icon {
-    background-color: rgb(252,227,138);
-    transition: background-color 200ms linear;
-}
+
 .team-icon-link {
     display: inline-block;
+    width: 56px;
+    height: 56px;
+    background-color: rgb(252,227,138);
     border: 0;
     padding: 0;
     box-shadow: none;
     height: 56px;
+    transition: background-color 200ms linear;
+}
+.team-icon-link-one {
+    background-image: url(img/2-1.png);
+}
+.team-icon-link-two {
+    background-image: url(img/2-2.png);
+}
+.team-icon-link-three {
+    background-image: url(img/2-3.png);
+}
+.team-icon-link-four {
+    background-image: url(img/2-4.png);
 }
 .team-icon-link:not(:last-child) {
     border-right: 1px solid rgba(243, 129, 129, 0.4);
 }
-.team-icon:hover {
+.team-icon-link:hover {
     background-color: rgb(149 ,225 ,211);
 }
 .team-block:hover .team-img  {
