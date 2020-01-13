@@ -1,0 +1,245 @@
+@font-face {
+    font-family: 'Wisdom-script';
+    src: url('../fonts/Wisdom-Script.woff') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Montserrat-font';
+    src: url('../fonts/Montserrat-Regular.woff') format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Montserrat-font';
+    src: url('../fonts/Montserrat-Bold.woff') format('truetype');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Droidserif-font';
+    src: url('../fonts/DroidSerif-Italic.woff') format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Robotoslab-font';
+    src: url('../fonts/RobotoSlab-Regular.woff') format('truetype');
+    font-weight: 400;
+}
+body {
+    font-family: 'Wisdom-script', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+h2 {
+    margin: 0;
+}
+h3 {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+header {
+    margin-bottom: 100px;
+}
+.logo {
+    font-size: 26px;
+    color: rgb(254, 209, 54);
+    font-family: 'Wisdom-script', sans-serif;
+}
+.menu-flex {
+    display: flex;
+    min-height: 65px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.menu-list {
+    display: flex;
+    min-width: 485px;
+    justify-content: space-between;
+}
+.menu-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: rgb(34, 34, 34);
+    transition:  color 200ms linear;
+} 
+.menu-link:hover {
+    color: rgb(254, 209, 54);
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+.service-title {
+    color: rgb(34, 34, 34);
+}
+.text-after-title {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Droidserif-font', sans-serif;
+    color: rgb(119, 119, 119);
+    font-size: 16px;
+}
+.text-after-title-of-service {
+    margin-bottom: 75px;
+}
+
+.service-flex {
+    display: flex;
+    justify-content: space-between;    
+
+}
+.service-block {
+    position: relative;
+    margin-bottom: 123px;
+    padding-top: 100px;
+    width: 290px;
+
+}
+.service-block-one::before {
+    content: '';
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/1.png);
+    position: absolute;
+    left: 0px; 
+    right: 0;
+    margin: auto;
+    top: 0;
+    border-radius: 50%;
+    border: 3px solid rgb(254, 209, 54);
+}
+.service-block-two::before {
+    content: '';
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/2.png);
+    position: absolute;
+    left: 0px; 
+    right: 0;
+    margin: auto; 
+    top: 0;
+    border-radius: 50%;
+    border: 3px solid rgb(254, 209, 54);
+}
+.service-block-three::before {
+    content: '';
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/3.png);
+    position: absolute;
+    left: 0px; 
+    right: 0;
+    margin: auto;
+    top: 0;
+    border-radius: 50%;
+    border: 3px solid rgb(254, 209, 54);
+}
+.title-of-block {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: rgb(34, 34, 34);
+    text-align: center;
+    margin-bottom: 18px;
+}
+.simple-text {
+    color: rgb(119, 119, 119);
+    font-size: 14px;
+    line-height: 27px;
+    font-family: 'Robotoslab-font', serif;
+    text-align: center;
+}
+footer {
+    background-image: url(../img/background.png);
+    padding: 110px 0 150px;
+}
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.form-field-item {
+    display: inline-block;
+    width: 455px;
+    
+}
+.contact-title {
+    color: rgb(255,255,255);
+}
+.text-after-contact-title {
+    margin-bottom: 80px;
+}
+.contact-list {
+    width: 455px;
+}
+.form-field {
+    width: 409px;
+    border-radius: 2px;
+    border: 1px solid rgb(187,187,187);
+    padding: 16px 22px;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 30px;
+}
+.form-field::placeholder {
+    font-family: 'Montserrat-font', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(187,187,187);
+}
+.required-field:valid {
+    outline: 1px solid rgb(0,255,0);
+}
+.required-field:invalid {
+    outline: 1px solid rgb(255,0,0);
+}
+.massage-area {
+    resize: none;
+}
+.massage-area::placeholder {
+    font-family: 'Montserrat-font', sans-serif;
+    text-transform: uppercase;
+    width: 455px;
+    font-weight: 700;
+    color: rgb(187,187,187);
+    font-size: 14px;
+    line-height: 16px;
+}
+.sending {
+    width: 242px;
+    height: 66px;
+    background-color: rgb(254, 209, 54);
+    border: none;
+    font-family: 'Montserrat-font', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0 auto;
+    color: rgb(255,255,255);
+}
