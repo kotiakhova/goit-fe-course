@@ -176,7 +176,7 @@ p {
     font-family: 'Montserrat-font';
     color: rgb(255,78,80);
 }
-@media (min-width: 760px) {
+@media (min-width: 780px) {
     .container {
         width: 760px;
     }
@@ -230,7 +230,7 @@ p {
         order: 15;
     }
 }
-@media (min-width: 940px) {
+@media (min-width: 960px) {
     .container {
         width: 940px;
     }
