@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'Montserrat-font';
+    src: url('../fonts/Montserrat-Bold.woff') format('truetype');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Robotos-font';
+    src: url('../fonts/Roboto-Light.woff') format('truetype');
+    font-weight: 300;
+}
+a {
+    color: black;
+    display: block;
+}
+h2 {
+    margin: 0;
+}
+h3 {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+.container {
+    padding: 0;
+}
+.header {
+    background-image: url(../img/banner-desktop.png);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-bottom: 140px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header-top-btn {
+    font-family: 'Montserrat-font' ;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    line-height: 35px;
+    border-radius: 18px;
+    background-color: rgba(78,89,78, 0);
+    padding: 0 20px;
+    border: 2px solid rgba(78,89,78, 0);
+    margin-bottom: 115px;
+}
+.logo {
+    font-size: 20px;
+    font-family: 'Montserrat-font' ;
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
+}
+.logo:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.header-text-2 {
+    font-family: 'Montserrat-font' ;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.header-text-3 {
+    font-family: 'Robotos-font';
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+.header-low-btn {
+    font-family: 'Montserrat-font' ;
+    color: rgb(255, 255, 255);
+    min-width: 280px;
+    background-color: rgb(255,78,80);
+    line-height: 40px;
+    border-radius: 22px;
+    border: 2px solid rgba(78,89,78, 0);
+}
+.header-top-btn:hover {
+    border: 2px solid rgb(255, 255, 255);
+}
+.header-low-btn:hover {
+    border: 2px solid rgb(255, 255, 255);
+}
+.partners {
+    padding: 70px 0;
+}
+.partner-title {
+    font-family: 'Montserrat-font';
+    font-weight: 700;
+    text-align: center;
+    font-weight: 22px;
+    margin-bottom: 23px; 
+    color: rgb(51, 51, 51);
+}
+.img-block {
+    width: 120px;
+    margin: 0 auto;
+}
+.img-block {
+    position: relative;
+    width: 120px;
+    margin: 0 auto;
+}
+.partner-img {
+    display: block;
+    max-width: 120px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 23px;
+}
+.icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 4px solid rgb(255, 255, 255);
+    position: absolute;
+    right: 0px;
+    bottom: -4px;
+}
+.partner-icon-one {
+    background-color: rgb(255,78,80);
+    background-image: url(../img/icon-1.png);
+    background-position: 42% 58%;
+}
+.partner-icon-two {
+    background-color: rgb(255,165,7);
+    background-image: url(../img/icon-2.png);
+    background-position: 42% 58%;
+}
+.partner-icon-three {
+    background-color: rgb(28,215,173);
+    background-image: url(../img/icon-3.png);
+    background-position: 42% 58%;
+}
+.partner-icon-four {
+    background-color: rgb(78,115,219);
+    background-image: url(../img/icon-4.png);
+    background-position: center;
+}
+.partner-name {
+    font-family: 'Montserrat-font';
+    font-weight: 700;
+    text-align: center;
+    font-weight: 14px;
+    margin-bottom: 15px;
+    color: rgb(51, 51, 51)
+}
+.partner-bio {
+    text-align: center;
+    font-weight: 14px;
+    font-family: 'Robotos-font';
+    font-weight: 300;
+    margin-bottom: 30px;
+    color: rgb(152,152,152);
+}
+.other-partners {
+    display: block;
+    width: 285px;
+    height: 45px;
+    margin: auto;
+    border: 2px solid rgb(255,78,80);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat-font';
+    color: rgb(255,78,80);
+}
+
+@media (min-width: 780px) {
+
+    .partner-container {
+        padding: 70px 128px ;
+    }
+    .header {
+        padding-top: 40px;
+        padding-bottom: 190px;
+    }
+    .logo {
+        padding-top: 5px ;
+    }
+    .header-text-2 {
+        font-size: 50px;
+        margin-bottom: 40px;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header-text-3 {
+        font-size: 24px;
+        margin-bottom: 37px;
+    }
+    .partner-title {
+        font-size: 22px;
+        margin-bottom: 35px;
+    }
+    .partner-name {
+        font-size: 14px;
+    }
+
+    .partner-bio {
+        margin-bottom: 55px;
+        font-size: 14px;
+    }
+}
+@media (min-width: 960px) {
+    .header-text-2 {
+        width: 500px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 35px;
+    }
+    .partner-container {
+        padding: 70px 0px ;
+    }
+    .partner-title {
+        margin-bottom: 45px;
+    }
+
+
+
+}
