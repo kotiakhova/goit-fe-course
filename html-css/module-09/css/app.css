@@ -31,6 +31,7 @@ p {
     padding-bottom: 140px;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .header-top-btn {
     font-family: 'Montserrat-font' ;
@@ -168,7 +169,7 @@ p {
 @media (min-width: 780px) {
 
     .partner-container {
-        padding: 70px 128px ;
+        padding: 70px 0px ;
     }
     .header {
         padding-top: 40px;
