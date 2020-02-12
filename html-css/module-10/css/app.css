@@ -95,7 +95,7 @@ p {
 }
 .menu__svg {
     display: inline-block;
-    fill: rgb(229,229,229);
+    fill: rgb(225,225,225);
 }
 .menu__svg:hover {
     fill: rgb(252,227,138);
@@ -326,10 +326,11 @@ p {
 }
 .team__svg {
     display: inline-block;
+    margin: auto;
     fill: rgb(243, 129, 129);
 }
 .team__svg:hover {
-    fill: rgb(229,229,229);
+    fill: rgb(225,225,225);
 }
 .team__article:hover .team__img  {
     -webkit-transform: translate(-10px, -10px);
