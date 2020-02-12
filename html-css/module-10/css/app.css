@@ -92,6 +92,14 @@ p {
 .menu__icon_two {
     background-image: url(../img/symbol-defs.svg#icon-search);
 }
+.menu__svg {
+    display: inline-block;
+    fill: rgb(229,229,229);
+}
+.menu__svg:hover {
+    fill: rgb(252,227,138);
+    
+}
 .banner {
     padding: 180px 0 210px;
     text-align: center;
@@ -147,66 +155,77 @@ p {
     position: relative;
     margin-bottom: 90px;
 
+
 }
 .service__article_one::before {
     content: '';
     display: inline-block;
-    width: 40px;
-    height: 40px;
-    background-image: url(../img/symbol-defs.svg#icon-icon-clock);
+    background-image: url(../img/icon-clock.svg);
+    background-repeat: no-repeat;
     position: absolute;
     left: 10px; 
-    top: 0;
+    top: 13px;
+    width: 30px;
+    height: 30px;
+    
 }
 .service__article_two::before {
     content: '';
     display: inline-block;
-    width: 40px;
-    height: 40px;
-    background-image: url(../img/2-min.png#icon-icon-graph);
+    top: 13px;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/icon-graph.svg);
     position: absolute;
     left: 10px; 
-    top: 0;
 }
 .service__article_three::before {
     content: '';
     display: inline-block;
-    width: 40px;
-    height: 40px;
-    background-image: url(../img/symbol-defs.svg#icon-computer);
+    top: 13px;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/computer.svg);
     position: absolute;
     left: 10px; 
-    top: 0;
+
 }
 .service__article_four::before {
     content: '';
     display: inline-block;
-    width: 40px;
-    height: 40px;
-    background-image: url(../img/symbol-defs.svg#icon-book);
+    top: 13px;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/book.svg);
+    background-size: contain;
+    background-position: center;
     position: absolute;
     left: 10px; 
-    top: 0;
+
 }
 .service__article_five::before {
     content: '';
     display: inline-block;
-    width: 40px;
-    height: 40px;
-    background-image: url(../img/symbol-defs.svg#icon-icon-home);
+    top: 13px;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/icon-home.svg);
     position: absolute;
     left: 10px; 
-    top: 0;
 }
 .service__article_six::before {
     content: '';
     display: inline-block;
-    width: 40px;
-    height: 40px;
-    background-image: url(../img/symbol-defs.svg#icon-frame);
+    top: 13px;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/frame.svg);
+    background-position: center;
+    background-size: contain;
     position: absolute;
     left: 10px; 
-    top: 0;
+    
+
 }
 .title-of-block {
     font-size: 14px;
