@@ -95,7 +95,7 @@ p {
 }
 .menu__svg {
     display: inline-block;
-    fill: rgb(225,225,225);
+    fill: rgb(225, 225, 225);
 }
 .menu__svg:hover {
     fill: rgb(252,227,138);
@@ -306,13 +306,12 @@ p {
 .team__icon {
     display: inline-block;
     width: 56px;
-    height: 56px;
+    height: 30px;
     background-color: rgb(252,227,138);
     border: 0;
     padding: 13px 0;
     -webkit-box-shadow: none;
             box-shadow: none;
-    height: 56px;
     -webkit-transition: background-color 200ms linear;
     -o-transition: background-color 200ms linear;
     transition: background-color 200ms linear;
