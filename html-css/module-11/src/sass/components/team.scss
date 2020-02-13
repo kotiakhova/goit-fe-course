@@ -1,0 +1,87 @@
+.team__item-container {
+    padding-bottom: 90px;
+}
+.team__article {
+    width: 380px;
+    text-align: center;
+    position: relative;
+    &:hover .team__img  {
+        -webkit-transform: translate(-10px, -10px);
+            -ms-transform: translate(-10px, -10px);
+                transform: translate(-10px, -10px);
+    }
+    &:hover .team__overlay {
+        opacity: 1;
+    }
+}
+.team__img {
+    -webkit-transition: border-bottom, color 200ms linear;
+    -o-transition: border-bottom, color 200ms linear;
+    transition: border-bottom, color 200ms linear
+}
+.team__img-block {
+    background-color: $blue-color;
+    margin-bottom: 30px;
+    height: 470px;
+}
+
+.team__title {
+    margin-bottom: 13px;
+}
+.team__text {
+    font-style: italic;
+}
+.team__overlay {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    width: 380px;
+    height: 470px;
+    right: 9px;
+    bottom: 84px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from($light-pink-color), to($light-orange-color));
+    background-image: -o-linear-gradient($light-pink-color), ($light-orange-color);
+    background-image: linear-gradient($light-pink-color), ($light-orange-color);
+    opacity: 0;
+    -webkit-transition: opacity 200ms linear;
+    -o-transition: opacity 200ms linear;
+    transition: opacity 200ms linear
+}
+
+
+.team__icon {
+    display: inline-block;
+    width: 56px;
+    height: 30px;
+    background-color: $orange-color;
+    border: 0;
+    padding: 13px 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    -webkit-transition: background-color 200ms linear;
+    -o-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+    &:not(:last-child) {
+        border-right: 1px solid $transparent-pink-color;
+    }
+    &:hover {
+        background-color: $pink-color;
+    }
+}
+
+
+.team__svg {
+    display: inline-block;
+    margin: auto;
+    fill: $pink-color;
+    &:hover {
+        fill: $white-color;
+    }
+}

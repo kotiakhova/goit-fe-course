@@ -1,0 +1,23 @@
+.section_flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section__text-before-title {
+    font-size: 23px;
+    color: $dark-text-color;
+    margin-bottom: 17px;
+}
+.section__title {
+    font-size: 30px;
+    color: $dark-text-color;
+
+    &::after {
+        display: block;
+        content: '';
+        width: 60px;
+        height: 3px;
+        background-color: $pink-color;
+        margin: 40px auto 60px;
+    }
+}

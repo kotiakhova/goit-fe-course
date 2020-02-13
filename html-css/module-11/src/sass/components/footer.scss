@@ -1,0 +1,16 @@
+.footer__text {
+    line-height: 63px;
+    font-size: 14px;
+    font-family: $main-font-font;
+}
+.footer__link {
+    color: $pink-color;
+}
+.footer__form {
+    padding-left: 11px;
+    width: 380px;
+    line-height: 40px;
+    font-style: italic;
+    color: $white-color;
+    border: 1px solid $white-color;
+}

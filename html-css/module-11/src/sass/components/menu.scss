@@ -1,0 +1,53 @@
+.menu {
+    min-height: 50px;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+}
+.menu__list {
+    min-width: 630px;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+}
+.menu__link {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: $main-font-font;
+    font-weight: 600;
+    color: $white-color;
+    padding-bottom: 12px;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom, color 200ms linear;
+    -o-transition: border-bottom, color 200ms linear;
+    transition: border-bottom, color 200ms linear;
+    &:hover {
+        border-bottom: 2px solid $orange-color;
+        color: $orange-color;
+
+    }
+} 
+
+.menu__icon {
+    display: block;
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    border: 0;
+
+}
+.menu__icon_one {
+    background-image: url(../images/symbol-defs.svg#icon-shopping-cart);
+}
+.menu__icon_two {
+    background-image: url(../images/symbol-defs.svg#icon-search);
+}
+.menu__svg {
+    display: inline-block;
+    fill: $white-color;
+
+    &:hover {
+        fill: $orange-color;
+
+    }
+}
